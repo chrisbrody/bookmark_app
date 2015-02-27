@@ -1,0 +1,132 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+<<<<<<< HEAD
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/font1.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/font2.ttf);
+}
+
+html, body, .container-fluid, .categories, #categories {
+	height: 100%;
+}
+body {
+	background-color: #E0E4CC;
+	font-family: myFirstFont;
+}
+
+/* FIREBASE LINK*/
+a#firebase {
+	position: fixed;
+	right:1em;
+	top:1em;
+	z-index: 10000;
+}
+/* SIDEBAR */
+#categories {
+	background-color: #34495E;
+}
+#categories h2{
+	color: #34495E;
+	background-color: #1ABC9C;
+	margin:0 -15px;
+	padding:1em;
+}
+.nav-tabs {
+	border-bottom: none;	
+}
+.nav-tabs>li {
+   float: none; 
+   font-size: 24px;
+}
+.nav-tabs>li>a{
+	color:#FFF;
+	background-color: transparent;
+	margin:0 -15px;
+	border: 3px solid transparent;
+	transition: all 0.3s ease-in-out;
+}
+.nav-tabs>li>a>i {
+	color: #798795;
+}
+.nav-tabs>li.active>a>i,
+.nav-tabs>li>a:hover>i {
+	color:#1ABC9C;
+}
+.nav-tabs>li>a:hover, 
+.nav-tabs>li>a:focus,
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+	color:#1ABC9C;
+	background-color: #2C3E50;
+	margin:0 -14px 0 -20px;
+	border: 3px solid transparent;
+	border-top:3px solid #1ABC9C;
+	border-radius: 0;
+}
+
+/* ADD NEW BOOKMARK BUTTON */
+button.reveal {
+	position: absolute;
+	top:3em;
+	right: 1em;
+	background-color: #34495E;
+	background-image: none;
+	color: white;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+/* ADD NEW BOOKMARK BOX*/
+form .well {
+	font-family: sans-serif;
+}
+
+/*BOOKMARK BOXES*/
+.bookmarkBox {
+	background-color: #34495E;
+	font-family: sans-serif;
+	padding:10px;
+	margin: 1em 0;
+	color: #FFF;
+	font-weight: 700;
+	border:5px solid transparent;
+	transition: all 0.3s ease-in-out;
+}
+.bookmarkBox:hover {
+	background-color: #FFF;
+	color: #34495E;	
+	border:5px solid #34495E;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/*  */
+.tab-pane h1 {
+	color: #34495E;
+}
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 33cbd893106705201cb24a67e327beb939a99d57
+
+
